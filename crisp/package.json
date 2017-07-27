@@ -1,0 +1,23 @@
+{
+  "name": "crisp",
+  "version": "1.0.0",
+  "description": "Chat en vivo, control de pagina.",
+  "main": "index.js",
+  "author": "Sebastian Teran <sebastian.teran@ieee.org>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.crisp.chat/",
+    "serviceName": "Crisp Chat",
+    "message": "Ahora podras atender a tus clientes mas facilmente",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
